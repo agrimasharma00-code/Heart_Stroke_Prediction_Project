@@ -2,6 +2,8 @@
 
 This is a Streamlit web app that predicts the risk of heart disease using a trained machine learning model. The app collects basic health inputs such as age, blood pressure, cholesterol, heart rate, and ECG-related features, then uses a saved scaler and KNN model to produce a prediction.
 
+The app uses the K-Nearest Neighbors (KNN) algorithm for prediction. User inputs are first scaled using the saved scaler, then passed into the trained KNN model to generate the result.
+
 ## Features
 
 - Clean Streamlit interface for quick predictions
