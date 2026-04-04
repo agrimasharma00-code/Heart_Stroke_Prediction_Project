@@ -2,12 +2,6 @@
 
 This is a Streamlit web app that predicts the risk of heart disease using a trained machine learning model. The app collects basic health inputs such as age, blood pressure, cholesterol, heart rate, and ECG-related features, then uses a saved scaler and KNN model to produce a prediction.
 
-## Live Demo
-
-If you have deployed the app on Streamlit Community Cloud, replace the link below with your actual app URL:
-
-[Open the Streamlit app](https://your-streamlit-app.streamlit.app)
-
 ## Features
 
 - Clean Streamlit interface for quick predictions
@@ -56,13 +50,6 @@ streamlit run app.py
 http://localhost:8501
 ```
 
-## Deploy to Streamlit Cloud
-
-1. Push this project to GitHub.
-2. Go to Streamlit Community Cloud.
-3. Connect your GitHub repository.
-4. Set `app.py` as the entry file.
-5. Deploy and copy the public app URL into the Live Demo section above.
 
 ## Notes
 
