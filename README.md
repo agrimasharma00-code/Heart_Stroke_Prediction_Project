@@ -4,6 +4,9 @@ This is a Streamlit web app that predicts the risk of heart disease using a trai
 
 The app uses the K-Nearest Neighbors (KNN) algorithm for prediction. User inputs are first scaled using the saved scaler, then passed into the trained KNN model to generate the result.
 
+## Live Demo
+https://heartstrokepredictionproject.streamlit.app/
+
 ## Features
 
 - Clean Streamlit interface for quick predictions
